@@ -1,0 +1,283 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+div.container {
+	width: 970px;
+	height: 725px;
+}
+	div.Header-Nav {
+		vertical-align: top;
+		text-align: right;
+		margin-right: 30px;
+	}
+		.Header-Nav h6, .Header-Nav input {
+			display: inline-block;
+			vertical-align: top;
+			font-weight: normal;
+		}
+		.Header-Nav p {
+			background-color: #007CBA;
+			display: inline-block;
+			padding-left: 10px;
+			padding-right: 10px;
+			padding-top: 2px;
+			padding-bottom: 2px;
+			color: white;
+			border-radius: 5px;
+		}
+		.Header-Nav h6 {
+			color: gray;
+			margin-right: 20px;
+			background-color: lightgray;
+			padding: 5px;
+			padding-bottom: 5px;
+		}
+	div.Header {
+		width: 970px;
+		height: 75px;
+	}
+		.Header img, .Header h1 {
+			display: inline-block;
+			margin-bottom: 10px;
+		}
+		.Header h1 {
+			vertical-align: top;
+			margin-top: 20px;
+			color: #007CBA;
+		}
+		.Header img {
+			margin-top: 5px;
+		}
+		.Word {
+			color: grey;
+		}
+	div.LowerHeader {
+		padding: 15px;
+		background-color: #007CBA;
+		color: white;
+		font-weight: normal;
+	}
+	div.LeftSide {
+		width: 250px;
+		height: 400px;
+		margin-top: 50px;
+		vertical-align: top;
+		padding-left: 10px;
+	}
+		.TopButton {
+			background-color: #20A2E1; 
+			width: 235px;
+			text-align: center;
+			padding: 3px;
+			margin-bottom: 5px;
+			border-radius: 3px;
+		}
+		.TopButton a {
+			color: white;
+			text-decoration: none;
+		}
+		.BottomButton {
+			background-color: #EA5A07; 
+			width: 235px;
+			text-align: center;
+			padding: 3px;
+			border-radius: 3px;
+			margin-bottom: 10px;
+		}
+		.BottomButton a {
+			color: white;
+			text-decoration: none;
+		}
+		.BottomButton, .TopButton {
+			display: block;
+		}
+		.BottomButton h5 {
+			margin-left: 50px;
+		}
+		.important {
+			color: #3E8CB8;
+		}
+		.LeftSide h1 {
+			font-size: 10pt;
+			font-weight: normal;
+			margin-bottom: 10px;
+			padding: 5px;
+		}
+		.LeftSide h2 {
+			font-size: 13pt;
+			color: #3E8CB8;
+			padding: 5px;
+		}
+		.LeftSide h3 {
+			color: #3E8CB8;
+			padding-bottom: 10px;
+		}
+		.LeftSide h5 {
+			text-align: center;
+			font-size: 9pt;
+			margin-bottom: 20px;
+			font-weight: normal;
+		}
+		.LeftSide h6 {
+			padding-bottom: 20px;
+			font-size: 9pt;
+			font-weight: normal;
+		}
+		.LeftSide p {
+			color: #EA5A07;
+			font-size: 10pt;
+			font-weight: bold;
+			padding-bottom: 4px;
+		}
+		.LeftSide hr {
+			background-color: lightgray;
+			margin-bottom: 20px;
+		}
+		.LeftSide img {
+			margin-bottom: 200px;
+		}
+		.Ruler {
+			width: 198px;
+			height: 240px;
+			background-image: url("left_content_ad.png");
+		}
+		.Ruler a {
+			background-color: #125787;
+			color: white;
+			font-size: 10pt;
+			text-decoration: none;
+			margin-left: 10px;
+			padding-right: 20px;
+			padding-left: 20px;
+			padding-top: 2px;
+			padding-bottom: 2px;
+			border-radius: 3px;
+		}
+	div.MainContent {
+		width: 705px;
+		height: 600px;
+	}
+		.LeftSide, .MainContent {
+			display: inline-block;
+		}
+		/*div.TopContent*/
+			.HomeButton img, .HomeButton h4 {
+				display: inline-block;
+			}
+			.Telephone img, .Telephone ul {
+				display: inline-block;
+				vertical-align: top;
+				
+			}
+			.Telephone ul {
+				list-style-type: none;
+			}
+			.Telephone h6 {
+				color: gray;
+			}
+			.Telephone h2 {
+				color: #08AEE8;
+			}
+			.HomeButton, .Telephone {
+				display: inline-block;
+			}
+			.Telephone {
+				vertical-align: top;
+				margin-left: 392px;
+				padding: 10px;
+			}
+			.HomeButton {
+				margin-top: 10px;
+				margin-left: 30px;
+			}
+			.HomeButton h4 {
+				color: #3E8CB8;
+				vertical-align: top;
+				padding-top: 5px;
+			}
+		/*div.Content*/
+	div.Content {
+		margin-left: 30px;
+	}
+			.Content a {
+				color: #3E8CB8;
+			}
+			.Content hr {
+				background-color: lightgray;
+				margin-bottom: 10px;
+			}
+			.Content h3 {
+				color: #3E8CB8;
+			}
+			.Content span {
+				font-weight: bold;
+			}
+			.Content li {
+				margin-left: 20px;
+				margin-top: 10px;
+				margin-bottom: 5px;
+				font-size: 10pt;
+			}
+			.Content h4 {
+				font-size: 10pt;
+				margin-top: 20px;
+				font-weight: normal;
+				margin-bottom: 10px;
+			}
+			div.Content-Container {
+				width: 650px;
+				height: 135px;
+				border: 5px solid;
+				border-color: #3E8CB8;
+			}
+				.Content-Image {
+					display: inline-block;
+				}
+				.Content-Words {
+					margin-left: 20px;
+				}
+				.Content-Image, .Content-Words {
+					display: inline-block;
+					vertical-align: top;
+				}
+				.Content-Words p, .Conten-Words h3{
+					display: inline-block;
+					font-size: 10pt;
+					width: 500px;
+					vertical-align: top;
+				}
+				.Content-Words h3 {
+					margin-bottom: 5px;
+					margin-top: 5px;
+				}
+				.Content-Words p {
+					line-height: 17px;
+				}
+				.Get-Started {
+					margin-left: 82px;
+					margin-top: 10px;
+					background-color: #9EBB3F;
+					width: 200px;
+					text-align: center;
+					padding-top: 8px;
+					padding-bottom: 8px;
+					border-radius: 5px;
+				}
+				.Get-Started a {
+					color: white;
+					text-decoration: none;
+				}
+				.Content h5 {
+					margin-top: 10px;
+					margin-bottom: 15px;
+					color: #3E8CB8;
+				}
+				.Content p {
+					font-size: 10pt;
+				}
+
+
+
+		
